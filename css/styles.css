@@ -837,6 +837,18 @@ p {
     cursor: pointer;
 }
 
+.modal-title{
+    color: var(--title-text-color);
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+    padding-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
 .modal-icon{
 
 }
