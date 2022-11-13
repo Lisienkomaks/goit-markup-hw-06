@@ -825,26 +825,10 @@ p {
 
 .modal-form{
     padding-top: 40px;
+    padding-bottom: 40px;
+
 }
 
-.modal-submit-button{
-    background-color: var(--accent-color);
-    color: var(--text-white-color);
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border: none;
-    border-radius: 4px;
-    height: 50px;
-    padding: 0 28px;
-    cursor: pointer;
-    margin-left: 12px;
-}
 
 .close-sign{
     width: 30px;
@@ -870,8 +854,32 @@ p {
     margin-left: auto;
     margin-right: auto;
 
+
 }
 
-.modal-icon{
+.modal-submit-button{
+    background-color: var(--accent-color);
+    color: var(--text-white-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: none;
+    border-radius: 4px;
+    height: 50px;
+    padding: 0 28px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
 
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-submit-button:hover,
+.modal-submit-button:focus{
+    background-color: var(--button-active-blue);
 }
