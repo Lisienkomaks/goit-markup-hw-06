@@ -737,6 +737,9 @@ p {
     margin-left: auto;
 }
 
+.mailing-group{
+    display: flex;
+}
 
 .email-wrapper{
     width: 358px;
