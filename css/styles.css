@@ -870,15 +870,13 @@ p {
 }
 
 .username-description, .tel-description, .email-description, .feedback-description{
-    font-weight: 400;
     font-size: 12px;
     line-height: 1.16;
     letter-spacing: 0.01em;
     position: relative; 
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
-
-
 
 .modal-username-wrapper, .modal-tel-wrapper, .modal-email-wrapper{
     width: 448px;
@@ -923,7 +921,6 @@ p {
     padding-top: 12px;
     padding-left: 16px;
 
-    font-size: 12px;
     line-height: 1.16;
     letter-spacing: 0.01em;
 
