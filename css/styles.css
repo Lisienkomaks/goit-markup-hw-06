@@ -738,7 +738,20 @@ p {
 }
 
 
-
+.email-wrapper{
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    background-color: transparent;
+    font-size: 16px;
+    line-height: 1.25;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    padding-left: 16px;
+}
 
 .submit-button{
     background-color: var(--accent-color);
@@ -756,6 +769,7 @@ p {
     height: 50px;
     padding: 0 28px;
     cursor: pointer;
+    margin-left: 12px;
 }
 
 .mailing-icon{
