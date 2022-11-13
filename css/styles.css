@@ -862,16 +862,16 @@ p {
 }
 
 .username-description, .tel-description, .email-description, .feedback-description{
-    color: var(--primaty-text-color);
     font-weight: 400;
     font-size: 12px;
     line-height: 1.16;
     letter-spacing: 0.01em;
     margin-left: 40px;
     margin-right: auto;
-    position: relative;
-    
+    position: relative; 
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 
 
 .modal-username-wrapper, .modal-tel-wrapper, .modal-email-wrapper{
@@ -882,7 +882,7 @@ p {
     border-radius: 4px;
     padding-top: 11px;
     padding-bottom: 11px;
-    padding-left: 16px;
+    padding-left: 42px;
     display: block;
     margin-top: 4px;
 
@@ -897,27 +897,16 @@ p {
     
 }
 
-.modal-username-wrapper:hover, 
-.modal-tel-wrapper:hover, 
-.modal-email-wrapper:hover,
-.modal-username-wrapper:focus, 
-.modal-tel-wrapper:focus, 
-.modal-email-wrapper:focus{
-    border: 1px solid var(--accent-color);
-}
 
-.username-icon{
+.modal-username-icon, .modal-phone-icon, .modal-mail-icon{
     fill: var(--title-text-color);
     position: absolute;
     top: 50%;
     left: 12px;
     transform: translateY(-50%);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* .username-icon:hover,
-.username-icon:focus,{
-    fill: var(--accent-color);
-} */
 
 .feedback-textarea{
     width: 448px;
@@ -938,10 +927,7 @@ p {
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.feedback-textarea:hover,
-.feedback-textarea:focus{
-    border: 1px solid var(--accent-color);
-}
+
 
 
 .modal-submit-button{
@@ -965,6 +951,42 @@ p {
 
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.username-description:hover .modal-username-wrapper,
+.username-description:focus .modal-username-wrapper{
+    border: 1px solid var(--accent-color);
+}
+.username-description:hover .modal-username-icon,
+.username-description:focus .modal-username-icon{
+    fill: var(--accent-color);
+}
+
+
+.tel-description:hover .modal-tel-wrapper,
+.tel-description:focus .modal-tel-wrapper{
+    border: 1px solid var(--accent-color);
+}
+.tel-description:hover .modal-phone-icon,
+.tel-description:focus .modal-phone-icon{
+    fill: var(--accent-color);
+}
+
+
+.email-description:hover .modal-email-wrapper,
+.email-description:focus .modal-email-wrapper{
+    border: 1px solid var(--accent-color);
+}
+.email-description:hover .modal-mail-icon,
+.email-description:focus .modal-mail-icon{
+    fill: var(--accent-color);
+}
+
+
+.feedback-textarea:hover,
+.feedback-textarea:focus{
+    border: 1px solid var(--accent-color);
+}
+
 
 .modal-submit-button:hover,
 .modal-submit-button:focus{
