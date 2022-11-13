@@ -682,7 +682,9 @@ p {
     color: var(--accent-color);
  }
 
- .social-discription{
+
+
+ .social-discription, .mailing-discription{
     margin-bottom: 20px;
     font-weight: 700;
     line-height: 1.14;
@@ -728,6 +730,11 @@ p {
 
 .footer-social-icon{
     fill: currentColor;
+}
+
+.footer-mailing-group{
+    margin-right: 0;
+    margin-left: auto;
 }
 
 
