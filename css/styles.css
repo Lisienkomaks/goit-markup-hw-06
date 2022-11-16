@@ -853,10 +853,6 @@ p {
     color:var(--accent-color)
 }
 
-.modal-icon{
-    fill: currentColor;
-}
-
 .modal-title{
     color: var(--title-text-color);
     font-weight: 700;
@@ -864,11 +860,43 @@ p {
     line-height: 1.15;
     text-align: center;
     letter-spacing: 0.03em;
-
     margin-bottom: 12px;
 }
 
-.username-description, .tel-description, .email-description, .feedback-description{
+.form-item{
+    width: 100%;
+}
+
+.modal-label{
+    color: var(--primaty-text-color);
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.01em;
+    margin-bottom: 4px;
+}
+
+.modal-input{
+    height: 40px;
+    width: 100%;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding-left: 42px;
+}
+
+.modal-textarea{
+    height: 120px;
+    width: 100%;
+    resize: none;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+}
+
+.modal-icon{
+    fill: currentColor;
+}
+
+/* .username-description, .tel-description, .email-description, .feedback-description{
     font-size: 12px;
     line-height: 1.16;
     letter-spacing: 0.01em;
@@ -897,10 +925,10 @@ p {
 
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
-}
+} */
 
 
-.modal-username-icon, .modal-phone-icon, .modal-mail-icon{
+/* .modal-username-icon, .modal-phone-icon, .modal-mail-icon{
     fill: var(--title-text-color);
     position: absolute;
     top: 50%;
@@ -925,9 +953,9 @@ p {
     margin-top: 4px;
     margin-bottom: 20px;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.checkbox-description{
+/* .checkbox-description{
 
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -935,16 +963,16 @@ p {
     margin-bottom: 30px;
     display: flex;
     align-items: center;
-    
+     */
 
-}
+/* } */
 
-.checkbox-link{
+/* .checkbox-link{
 
     line-height: 1.71;
     letter-spacing: 0.03em;
     text-decoration: underline;
-}
+} */
 
 
 .modal-submit-button{
