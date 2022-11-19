@@ -865,6 +865,12 @@ p {
     margin-bottom: 10px;
 }
 
+.form-area{
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
 .input-icon-group{
     color: var(--title-text-color);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -879,6 +885,7 @@ p {
 
 
 .modal-label{
+    display: inline-block;
     color: var(--primaty-text-color);
     font-size: 12px;
     line-height: 1.16;
@@ -912,7 +919,6 @@ p {
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     padding: 12px 16px;
-    margin-bottom: 20px;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -945,6 +951,10 @@ p {
     line-height: 1.71;
     letter-spacing: 0.03em;
     margin-bottom: 30px;
+}
+
+.checkbox-link{
+    text-decoration: underline;
 }
 
 .modal-submit-button{
