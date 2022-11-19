@@ -968,6 +968,7 @@ p {
     height: 15px;
     border: 1px solid #212121;
     border-radius: 2px;
+    cursor: pointer;
   }
   .checkbox:checked + .check-icon {
     border-color: var(--accent-color);
@@ -999,6 +1000,7 @@ p {
 .checkbox-link{
     text-decoration: underline;
     margin-left: 4px;
+    color: var(--accent-color);
 }
 
 .modal-submit-button{
