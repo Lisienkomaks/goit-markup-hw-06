@@ -951,7 +951,10 @@ p {
 .checkbox:checked + .checkbox-icon{
     background-color: var(--accent-color);
     border: none;
-    b
+    background-image: url(../img/icon-check.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .checkbox-icon{
