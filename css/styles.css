@@ -948,7 +948,25 @@ p {
     fill: currentColor;
 }
 
+.checkbox:checked + .checkbox-icon{
+    background-color: var(--accent-color);
+    border: none;
+    b
+}
+
+.checkbox-icon{
+    display: inline-block;
+    width: 16px;
+    height: 15px;
+    background-color: transparent;
+    border: 2px solid var(--title-text-color);
+    border-radius: 2px;
+}
+
+
 .form-rules{
+    display: flex;
+    align-items: center;
     line-height: 1.71;
     letter-spacing: 0.03em;
     margin-bottom: 30px;
